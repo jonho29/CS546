@@ -1,0 +1,12 @@
+{
+  "name": "in_class_exercise1",
+  "version": "1.0.0",
+  "description": "In class exercise during Lecture 2, 2/4/19",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Justin Westley 10416230",
+  "license": "ISC"
+}
