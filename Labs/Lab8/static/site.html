@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>People Finder</title>
+
+    <link rel="stylesheet" href="/public/site.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>People Finder</h1>
+      <p>
+        This site allows you to search for people in our people finder
+        directory. Simply type their name in the box and press enter! You will
+        see up to 20 of the best matching results.
+      </p>
+      <form action="/search" method="post">
+        <div>
+          <label for="personName">Person Name</label>
+          <input type="text" id="personName" name="personName" />
+        </div>
+        <div>
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
