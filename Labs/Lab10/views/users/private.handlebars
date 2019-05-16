@@ -1,0 +1,12 @@
+<h2>{{msg}}</h2>
+{{#if authVal}}
+<ul>
+    <li>First Name: {{userObject.firstName}}</li>
+    <li>Last Name: {{userObject.lastName}}</li>
+    <li>Username: {{userObject.username}}</li>
+    <li>Profession: {{userObject.profession}}</li>
+    <li>Bio: {{userObject.bio}}</li>
+</ul>
+{{/if}}
+
+<a href='/logout'>Logout</a>
